@@ -13,9 +13,6 @@ function App() {
           <Navigationbar/>
           <Switch>
             <Route exact path="/" component={Home} />
-            <Route exact path="/Details" component={Details} />
-            <Route exact path="/Locations" component={Locations} />
-            <Route exact path="/About" component={About} />
           </Switch>
           </Router>
     </div>
